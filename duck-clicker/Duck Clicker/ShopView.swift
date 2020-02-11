@@ -19,6 +19,27 @@ struct ShopItem: Identifiable {
     }
 }
 
+struct ShopItemView: View {
+    var item: ShopItem
+    var amountPurchased: Int?
+    
+    var body: some View {
+        HStack {
+            VStack(alignment: .leading) {
+                HStack {
+                    Text(item.name)
+                    amountPurchased.map { purchased in
+                        Text("x\(purchased)")
+                    }
+                }
+                Text(item.description).foregroundColor(.gray)
+            }
+            Spacer()
+            Text("\(item.calculatePrice(alreadyPurchased: amountPurchased ?? 0)) ducks")
+        }
+    }
+}
+
 struct ShopView: View {
     @Binding var clicks: Int
     @Binding var purchasedItems: [String: Int] {
@@ -46,19 +67,7 @@ struct ShopView: View {
                         self.purchasedItems[item.id] = 1
                     }
                 }) {
-                    HStack {
-                        VStack(alignment: .leading) {
-                            HStack {
-                                Text(item.name)
-                                self.purchasedItems[item.id].map { purchased in
-                                    Text("x\(purchased)")
-                                }
-                            }
-                            Text(item.description).foregroundColor(.gray)
-                        }
-                        Spacer()
-                        Text("\(item.calculatePrice(alreadyPurchased: self.purchasedItems[item.id] ?? 0)) ducks")
-                    }
+                    ShopItemView(item: item, amountPurchased: self.purchasedItems[item.id])
                 }.disabled(self.clicks < item.calculatePrice(alreadyPurchased: self.purchasedItems[item.id] ?? 0))
             }
         }.navigationBarTitle("Shop")
