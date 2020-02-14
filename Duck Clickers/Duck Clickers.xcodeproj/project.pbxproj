@@ -7,33 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4A07F2E023F258D0005C3C27 /* Duck.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4A07F2DF23F258D0005C3C27 /* Duck.m4a */; };
-		4A816E4823F21048005C3C27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A816E4723F21048005C3C27 /* AppDelegate.swift */; };
-		4A816E4A23F21048005C3C27 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A816E4923F21048005C3C27 /* SceneDelegate.swift */; };
-		4A816E4C23F21048005C3C27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A816E4B23F21048005C3C27 /* ContentView.swift */; };
-		4A816E4E23F2104E005C3C27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A816E4D23F2104E005C3C27 /* Assets.xcassets */; };
-		4A816E5123F2104E005C3C27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A816E5023F2104E005C3C27 /* Preview Assets.xcassets */; };
-		4A816E5423F2104E005C3C27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A816E5223F2104E005C3C27 /* LaunchScreen.storyboard */; };
-		4A816E5C23F21343005C3C27 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A816E5B23F21343005C3C27 /* ShopView.swift */; };
+		4AFFE9F623F6270D005C3C27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFFE9F523F6270D005C3C27 /* AppDelegate.swift */; };
+		4AFFE9F823F6270D005C3C27 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFFE9F723F6270D005C3C27 /* SceneDelegate.swift */; };
+		4AFFE9FA23F6270D005C3C27 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFFE9F923F6270D005C3C27 /* ContentView.swift */; };
+		4AFFE9FC23F62711005C3C27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AFFE9FB23F62711005C3C27 /* Assets.xcassets */; };
+		4AFFE9FF23F62711005C3C27 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AFFE9FE23F62711005C3C27 /* Preview Assets.xcassets */; };
+		4AFFEA0223F62711005C3C27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AFFEA0023F62711005C3C27 /* LaunchScreen.storyboard */; };
+		4AFFEA0A23F62A40005C3C27 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFFEA0923F62A40005C3C27 /* ShopView.swift */; };
+		4AFFEA0C23F633A4005C3C27 /* Duck.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 4AFFEA0B23F633A3005C3C27 /* Duck.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4A07F2DF23F258D0005C3C27 /* Duck.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Duck.m4a; sourceTree = "<group>"; };
-		4A07F2E123F25AAC005C3C27 /* Acknowledgements.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Acknowledgements.md; sourceTree = "<group>"; };
-		4A816E4423F21048005C3C27 /* Duck Clicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Duck Clicker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A816E4723F21048005C3C27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4A816E4923F21048005C3C27 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4A816E4B23F21048005C3C27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		4A816E4D23F2104E005C3C27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4A816E5023F2104E005C3C27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		4A816E5323F2104E005C3C27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4A816E5523F2104E005C3C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4A816E5B23F21343005C3C27 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
-		4AD9E99523F50672005C3C27 /* Duck Clicker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Duck Clicker.entitlements"; sourceTree = "<group>"; };
+		4AFFE9F223F6270D005C3C27 /* Duck Clickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Duck Clickers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AFFE9F523F6270D005C3C27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4AFFE9F723F6270D005C3C27 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4AFFE9F923F6270D005C3C27 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4AFFE9FB23F62711005C3C27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AFFE9FE23F62711005C3C27 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4AFFEA0123F62711005C3C27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4AFFEA0323F62711005C3C27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AFFEA0923F62A40005C3C27 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		4AFFEA0B23F633A3005C3C27 /* Duck.m4a */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Duck.m4a; path = ../../../../../../Desktop/Duck.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4A816E4123F21048005C3C27 /* Frameworks */ = {
+		4AFFE9EF23F6270D005C3C27 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,44 +41,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4A816E3B23F21047005C3C27 = {
+		4AFFE9E923F6270D005C3C27 = {
 			isa = PBXGroup;
 			children = (
-				4A07F2E123F25AAC005C3C27 /* Acknowledgements.md */,
-				4A816E4623F21048005C3C27 /* Duck Clicker */,
-				4A816E4523F21048005C3C27 /* Products */,
+				4AFFE9F423F6270D005C3C27 /* Duck Clickers */,
+				4AFFE9F323F6270D005C3C27 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4A816E4523F21048005C3C27 /* Products */ = {
+		4AFFE9F323F6270D005C3C27 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4A816E4423F21048005C3C27 /* Duck Clicker.app */,
+				4AFFE9F223F6270D005C3C27 /* Duck Clickers.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4A816E4623F21048005C3C27 /* Duck Clicker */ = {
+		4AFFE9F423F6270D005C3C27 /* Duck Clickers */ = {
 			isa = PBXGroup;
 			children = (
-				4AD9E99523F50672005C3C27 /* Duck Clicker.entitlements */,
-				4A816E4723F21048005C3C27 /* AppDelegate.swift */,
-				4A816E4923F21048005C3C27 /* SceneDelegate.swift */,
-				4A816E4B23F21048005C3C27 /* ContentView.swift */,
-				4A816E5B23F21343005C3C27 /* ShopView.swift */,
-				4A07F2DF23F258D0005C3C27 /* Duck.m4a */,
-				4A816E4D23F2104E005C3C27 /* Assets.xcassets */,
-				4A816E5223F2104E005C3C27 /* LaunchScreen.storyboard */,
-				4A816E5523F2104E005C3C27 /* Info.plist */,
-				4A816E4F23F2104E005C3C27 /* Preview Content */,
+				4AFFE9F523F6270D005C3C27 /* AppDelegate.swift */,
+				4AFFE9F723F6270D005C3C27 /* SceneDelegate.swift */,
+				4AFFE9F923F6270D005C3C27 /* ContentView.swift */,
+				4AFFEA0923F62A40005C3C27 /* ShopView.swift */,
+				4AFFE9FB23F62711005C3C27 /* Assets.xcassets */,
+				4AFFEA0B23F633A3005C3C27 /* Duck.m4a */,
+				4AFFEA0023F62711005C3C27 /* LaunchScreen.storyboard */,
+				4AFFEA0323F62711005C3C27 /* Info.plist */,
+				4AFFE9FD23F62711005C3C27 /* Preview Content */,
 			);
-			path = "Duck Clicker";
+			path = "Duck Clickers";
 			sourceTree = "<group>";
 		};
-		4A816E4F23F2104E005C3C27 /* Preview Content */ = {
+		4AFFE9FD23F62711005C3C27 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				4A816E5023F2104E005C3C27 /* Preview Assets.xcassets */,
+				4AFFE9FE23F62711005C3C27 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -88,39 +84,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4A816E4323F21048005C3C27 /* Duck Clicker */ = {
+		4AFFE9F123F6270D005C3C27 /* Duck Clickers */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A816E5823F2104E005C3C27 /* Build configuration list for PBXNativeTarget "Duck Clicker" */;
+			buildConfigurationList = 4AFFEA0623F62711005C3C27 /* Build configuration list for PBXNativeTarget "Duck Clickers" */;
 			buildPhases = (
-				4A816E4023F21048005C3C27 /* Sources */,
-				4A816E4123F21048005C3C27 /* Frameworks */,
-				4A816E4223F21048005C3C27 /* Resources */,
+				4AFFE9EE23F6270D005C3C27 /* Sources */,
+				4AFFE9EF23F6270D005C3C27 /* Frameworks */,
+				4AFFE9F023F6270D005C3C27 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Duck Clicker";
-			productName = "Duck Clicker";
-			productReference = 4A816E4423F21048005C3C27 /* Duck Clicker.app */;
+			name = "Duck Clickers";
+			productName = "Duck Clickers";
+			productReference = 4AFFE9F223F6270D005C3C27 /* Duck Clickers.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4A816E3C23F21047005C3C27 /* Project object */ = {
+		4AFFE9EA23F6270D005C3C27 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Anthony Li";
 				TargetAttributes = {
-					4A816E4323F21048005C3C27 = {
+					4AFFE9F123F6270D005C3C27 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 4A816E3F23F21048005C3C27 /* Build configuration list for PBXProject "Duck Clicker" */;
+			buildConfigurationList = 4AFFE9ED23F6270D005C3C27 /* Build configuration list for PBXProject "Duck Clickers" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -128,49 +124,49 @@
 				en,
 				Base,
 			);
-			mainGroup = 4A816E3B23F21047005C3C27;
-			productRefGroup = 4A816E4523F21048005C3C27 /* Products */;
+			mainGroup = 4AFFE9E923F6270D005C3C27;
+			productRefGroup = 4AFFE9F323F6270D005C3C27 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4A816E4323F21048005C3C27 /* Duck Clicker */,
+				4AFFE9F123F6270D005C3C27 /* Duck Clickers */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4A816E4223F21048005C3C27 /* Resources */ = {
+		4AFFE9F023F6270D005C3C27 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A816E5423F2104E005C3C27 /* LaunchScreen.storyboard in Resources */,
-				4A816E5123F2104E005C3C27 /* Preview Assets.xcassets in Resources */,
-				4A816E4E23F2104E005C3C27 /* Assets.xcassets in Resources */,
-				4A07F2E023F258D0005C3C27 /* Duck.m4a in Resources */,
+				4AFFEA0223F62711005C3C27 /* LaunchScreen.storyboard in Resources */,
+				4AFFE9FF23F62711005C3C27 /* Preview Assets.xcassets in Resources */,
+				4AFFE9FC23F62711005C3C27 /* Assets.xcassets in Resources */,
+				4AFFEA0C23F633A4005C3C27 /* Duck.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4A816E4023F21048005C3C27 /* Sources */ = {
+		4AFFE9EE23F6270D005C3C27 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A816E4823F21048005C3C27 /* AppDelegate.swift in Sources */,
-				4A816E4A23F21048005C3C27 /* SceneDelegate.swift in Sources */,
-				4A816E5C23F21343005C3C27 /* ShopView.swift in Sources */,
-				4A816E4C23F21048005C3C27 /* ContentView.swift in Sources */,
+				4AFFE9F623F6270D005C3C27 /* AppDelegate.swift in Sources */,
+				4AFFE9F823F6270D005C3C27 /* SceneDelegate.swift in Sources */,
+				4AFFEA0A23F62A40005C3C27 /* ShopView.swift in Sources */,
+				4AFFE9FA23F6270D005C3C27 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4A816E5223F2104E005C3C27 /* LaunchScreen.storyboard */ = {
+		4AFFEA0023F62711005C3C27 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4A816E5323F2104E005C3C27 /* Base */,
+				4AFFEA0123F62711005C3C27 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -178,7 +174,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4A816E5623F2104E005C3C27 /* Debug */ = {
+		4AFFEA0423F62711005C3C27 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -238,7 +234,7 @@
 			};
 			name = Debug;
 		};
-		4A816E5723F2104E005C3C27 /* Release */ = {
+		4AFFEA0523F62711005C3C27 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -292,47 +288,41 @@
 			};
 			name = Release;
 		};
-		4A816E5923F2104E005C3C27 /* Debug */ = {
+		4AFFEA0723F62711005C3C27 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Duck Clicker/Duck Clicker.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"Duck Clicker/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Duck Clickers/Preview Content\"";
 				DEVELOPMENT_TEAM = 9G475R3MEF;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Duck Clicker/Info.plist";
+				INFOPLIST_FILE = "Duck Clickers/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.anli.Duck-Clicker";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.anli.Duck-Clickers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		4A816E5A23F2104E005C3C27 /* Release */ = {
+		4AFFEA0823F62711005C3C27 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = "Duck Clicker/Duck Clicker.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"Duck Clicker/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Duck Clickers/Preview Content\"";
 				DEVELOPMENT_TEAM = 9G475R3MEF;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Duck Clicker/Info.plist";
+				INFOPLIST_FILE = "Duck Clickers/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "dev.anli.Duck-Clicker";
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.anli.Duck-Clickers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -341,25 +331,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4A816E3F23F21048005C3C27 /* Build configuration list for PBXProject "Duck Clicker" */ = {
+		4AFFE9ED23F6270D005C3C27 /* Build configuration list for PBXProject "Duck Clickers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4A816E5623F2104E005C3C27 /* Debug */,
-				4A816E5723F2104E005C3C27 /* Release */,
+				4AFFEA0423F62711005C3C27 /* Debug */,
+				4AFFEA0523F62711005C3C27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A816E5823F2104E005C3C27 /* Build configuration list for PBXNativeTarget "Duck Clicker" */ = {
+		4AFFEA0623F62711005C3C27 /* Build configuration list for PBXNativeTarget "Duck Clickers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4A816E5923F2104E005C3C27 /* Debug */,
-				4A816E5A23F2104E005C3C27 /* Release */,
+				4AFFEA0723F62711005C3C27 /* Debug */,
+				4AFFEA0823F62711005C3C27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4A816E3C23F21047005C3C27 /* Project object */;
+	rootObject = 4AFFE9EA23F6270D005C3C27 /* Project object */;
 }

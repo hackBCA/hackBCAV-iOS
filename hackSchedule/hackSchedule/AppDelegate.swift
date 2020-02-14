@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Duck Clicker
+//  hackSchedule
 //
-//  Created by Anthony Li on 2/10/20.
+//  Created by Anthony Li on 2/13/20.
 //  Copyright © 2020 Anthony Li. All rights reserved.
 //
 
