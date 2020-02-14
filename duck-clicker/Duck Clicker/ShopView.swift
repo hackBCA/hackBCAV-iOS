@@ -50,9 +50,9 @@ struct ShopView: View {
     
     var items = [
         ShopItem(id: "multiplier", name: "Duck Multiplier", description: "Multiplies the number of ducks per tap by 2.", basePrice: 200),
-        ShopItem(id: "enlarger", name: "Duck Enlarger", description: "Enlarges the duck on the screen.", basePrice: 500),
+        ShopItem(id: "enlarger", name: "Duck Enlarger", description: "Enlarges the duck on the screen.", basePrice: 500)/*,
         ShopItem(id: "rotater", name: "Duck Rotate", description: "Rotates the duck on the screen.", basePrice: 1),
-        ShopItem(id: "hue-rotater", name: "Duck Huerotater", description: "OoH rAiNbOwS", basePrice: 2)
+        ShopItem(id: "hue-rotater", name: "Duck Huerotater", description: "OoH rAiNbOwS", basePrice: 2)*/
     ]
     
     var body: some View {

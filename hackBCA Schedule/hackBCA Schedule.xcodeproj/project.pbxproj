@@ -337,6 +337,7 @@
 				DEVELOPMENT_TEAM = 9G475R3MEF;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "hackBCA Schedule/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -360,6 +361,7 @@
 				DEVELOPMENT_TEAM = 9G475R3MEF;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "hackBCA Schedule/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
